@@ -1,21 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment no.1</title>
-</head>
-<body>
-<h1>ARTS OF CARNATION</h1>
-<img src="media/carnation.jpg" alt="">
-<a href="https://www.freepik.com/vectors/background">Background vector created by rawpixel.com - www.freepik.com</a>
-<img src="media/Cliparts.carnation.jpg" alt="">
-<a href="http://cliparts.co/">http://cliparts.co/</a>
+    <link rel="icon" href="media/flower-3.png" type="image/png" sizes="16x16">
 
- <footer>
-    
-     
-</footer>   
+    <style>
+        img {
+            max-height: 200px;
+            width: auto;
+            padding: 20px;
+        }
+
+        .image-results {
+            display: flex;
+        }
+
+        h1 {
+            color: rgb(204, 114, 78);
+
+
+        }
+
+        body {
+
+
+            background-color: papayawhip;
+
+        }
+    </style>
+
+</head>
+
+<body>
+<header>
+    <h1>WELCOME TO GDA</h1>
+    <p>GLOBAL DIGITAL ART</p>
+</header>
+
+    <ul>
+
+        <li>Search</li>
+        <li>Weekly top list</li>
+
+    </ul>
+    <h2> RESULTS OF "CARNATION"</h2>
+
+    <button onclick=clickhere()>
+        TOGGLE
+
+    </button>
+
+    <script>
+
+        function clickhere() {
+            Showstatus = document.getElementById("allpictures").style.display
+            if (Showstatus == "none")
+                document.getElementById("allpictures").style.display = "flex"
+            else
+                document.getElementById("allpictures").style.display = "none"
+
+        }
+
+    </script>
+
+    <div class="image-results" id="allpictures">
+
+        <a href="https://www.freepik.com/vectors/background">
+            <img src="media/carnation.jpg">
+        </a>
+
+
+        <a href="http://cliparts.co/">
+            <img src="media/Cliparts.carnation.jpg">
+        </a>
+
+
+        <a href="https://www.freepik.com/free-vector/hand-drawn-carnation-flower-isolated_2632945.htm">
+            <img src="media/Thoo.jpg">
+        </a>
+
+
+        <a href="https://www.gallerygiselle.com/ikebana.htm">
+            <img src="media/flower3L.jpg">
+        </a>
+
+    </div>
+
+    <footer>
+        <p> SPONSORED BY FLOWER POWER</p>
+    </footer>
+
+    <script>
+
+        function clickhere() {
+            Showstatus = document.getElementById("allpictures").style.display
+            if (Showstatus == "none")
+                document.getElementById("allpictures").style.display = "flex"
+            else
+                document.getElementById("allpictures").style.display = "none"
+
+        }
+
+    </script>
 
 </body>
+
 </html>
