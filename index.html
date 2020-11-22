@@ -7,38 +7,15 @@
     <title>Assignment no.1</title>
     <link rel="icon" href="media/flower-3.png" type="image/png" sizes="16x16">
 
-    <style>
-        img {
-            max-height: 200px;
-            width: auto;
-            padding: 20px;
-        }
-
-        .image-results {
-            display: flex;
-        }
-
-        h1 {
-            color: rgb(204, 114, 78);
-
-
-        }
-
-        body {
-
-
-            background-color: papayawhip;
-
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-<header>
-    <h1>WELCOME TO GDA</h1>
-    <p>GLOBAL DIGITAL ART</p>
-</header>
+    <header>
+        <h1>WELCOME TO GDA</h1>
+        <p>GLOBAL DIGITAL ART</p>
+    </header>
 
     <ul>
 
@@ -54,7 +31,6 @@
     </button>
 
     <script>
-
         function clickhere() {
             Showstatus = document.getElementById("allpictures").style.display
             if (Showstatus == "none")
@@ -63,7 +39,6 @@
                 document.getElementById("allpictures").style.display = "none"
 
         }
-
     </script>
 
     <div class="image-results" id="allpictures">
@@ -90,11 +65,11 @@
     </div>
 
     <footer>
-        <p> SPONSORED BY FLOWER POWER</p>
+        <p class="bold"> SPONSORED BY FLOWER POWER</p>
+        <a href="assignment2.html">inlämningsuppgift2</a>
     </footer>
 
     <script>
-
         function clickhere() {
             Showstatus = document.getElementById("allpictures").style.display
             if (Showstatus == "none")
@@ -103,7 +78,6 @@
                 document.getElementById("allpictures").style.display = "none"
 
         }
-
     </script>
 
 </body>

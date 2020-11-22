@@ -1,0 +1,65 @@
+* {}
+
+body {
+    background-color: burlywood;
+}
+
+div.restaurantname {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 70px;
+    max-width: 360px;
+    min-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+/* On mouse-over */
+
+button:hover {
+    background: #eee;
+    color: brown;
+}
+
+button {
+    background-color: brown;
+    color: #eee;
+}
+
+div.buttons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    color: brown;
+}
