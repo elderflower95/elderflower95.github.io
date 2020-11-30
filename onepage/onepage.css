@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    display: block;
+    color: rgb(107, 28, 14);
+}
+
+.img1 {
+    width: 200px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(99, 45, 9);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(99, 45, 9);
+}
+
+h4 {
+    text-align: center;
+    color: rgb(99, 45, 9);
+}
+
+button {
+    size: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: coral;
+    color: wheat
+}
+
+body {
+    background-color: rgb(180, 122, 47);
+}
