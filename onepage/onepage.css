@@ -12,6 +12,16 @@ img {
     height: 200px;
 }
 
+h5 {
+    text-align: center;
+    color: rgb(228, 136, 32);
+}
+
+p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.863);
+}
+
 .card {
     text-align: center;
     margin-left: 2px;
