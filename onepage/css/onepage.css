@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    display: block;
+    color: rgb(228, 136, 32);
+}
+
+img {
+    object-fit: contain;
+    max-height: 200px;
+    height: 200px;
+}
+
+h5 {
+    text-align: center;
+    color: rgb(228, 136, 32);
+}
+
+p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+
+/* korten med olika berättelser/bilder, READ-button */
+
+.card {
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    justify-content: center;
+}
+
+.hover-transparent {
+    opacity: 0.6;
+}
+
+.hover-transparent:hover {
+    opacity: 1.0;
+}
+
+body {
+    background-color: rgb(49, 46, 46);
+}
+
+
+/* i detta fallet var label "Username" och "Password" på login-sidan. vill ha båda orange så använder mig av labeltaggen */
+
+label {
+    color: rgb(230, 117, 11);
+}
+
+.bg-orange {
+    background-color: rgb(253, 75, 4);
+}
+
+
+/*  hover effect */
+
+button:hover {
+    opacity: 0.8;
+}

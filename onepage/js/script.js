@@ -5,3 +5,9 @@ function load() {
     document.getElementById("uname").innerHTML = username.toUpperCase();
 
 }
+
+function remove(card) {
+
+    card.remove()
+
+}
