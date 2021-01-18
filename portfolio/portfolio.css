@@ -1,28 +1,34 @@
-.header {
-    padding: 10px;
+body {
+    background-color: #c5af67;
+    background-image: url('media/flower1.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.flowerbg {
+    width: 100%;
+    height: 100%;
+}
+
+.bird {
+    width: 30px;
+    height: 20px;
+}
+
+.card {
     text-align: center;
-    background: #c5af67;
-    color: white;
-    font-size: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+    justify-content: center;
 }
 
-.header {
-    font-size: 60px;
-    color: #fff;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+.text-gray {
+    font-weight: 400;
+    color: gray;
 }
 
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #eca437, 0 0 40px, 0 0 50px #eca437, 0 0 60px #eca437, 0 0 70px #eca437;
-    }
-    to {
-        text-shadow: 0 0 20px rgba(103, 179, 126, 0.781), 0 0 30px #f77930d7, 0 0 40px #f77930d7, 0 0 50px #f77930d7, 0 0 60px #f77930d7, 0 0 70px #f77930d7, 0 0 80px #f77930d7;
-    }
-}
-
-
+.text-gray:hover {
+    color: gray;
+    opacity: 50%;
+    text-decoration: none;
 }

@@ -4,16 +4,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="UX-designer,Developer,HTML,CSS,JavaScript,Portfolio, Design, Projects, EC-utbildning">
     <title>Hanna Portfolio Piece</title>
-    <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
 
 </head>
 
-<body style="background-color:#c5af67">
 
-    <div class="container">
-        <h1>PORTFOLIO PIECE</h1>
+
+<body onload="load()">
+    <nav id="topmenu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">HANNA</a> <img class="bird fixed mr-auto ml-1 background-color" src="media/bird (1).png" alt="bird">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="nav-link text-gray" href="#" id="WAI" role="button" aria-expanded="false">Who am I?</a>
+
+            <a class="nav-link text-gray" href="#" id="Contact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+            </a>
+
+            <a class="nav-link text-gray" href="#" id="Projects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact
+            </a>
+
+            <div class="mr-0 ml-auto">
+                <a class="text-gray ml-3" href="media/Hanna Nilsson. CV.pdf">
+                    <i data-feather="file-text"></i>
+                </a>
+
+                <a class="text-gray  ml-3" href="https://www.instagram.com/ernas.palette/">
+                    <i data-feather="instagram"></i>
+                </a>
+
+                <a class="text-gray  ml-3" href="https://www.linkedin.com/in/hanna-maria-nilsson-226654203/">
+                    <i data-feather="linkedin"></i>
+                </a>
+
+                <a class="text-gray  ml-3" href="https://www.github/elderflower95.github.io/">
+                    <i data-feather="github"></i>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container" style="padding-top: 150px;">
+        <div class="row">
+            <div class="col-xl-6 ">
+                <div id="card1" class="card mx-auto">
+                    <div id="aboutme" class="card-body mx-auto" style=" justify-content: center;">
+                        <h5 class="card-title ">About me</h5>
+                        <p class="card-text "> Hanna Maria Nilsson, that's me. I started the UX-Design program 2020. I will graduate 2022. I'm a new seed on the fields of UX and I'm ready to grow. What I like especially about UX is that we make "small things" matter and that
+                            every step of the UX-process is filled with different kind of techniques and strategies. Creativity is also a big part in UX-thinking and that's one of the best headspaces to be in, if you ask me. I'm seeing myself as a little
+                            seed with vision of growing until my final days. I will never get fully bloomed, there's always more to learn.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5" style="padding-top: 150px;">
+            <div class="col-xl-6 mr-0 ml-auto">
+                <div id="card2" class="card mx-auto">
+                    <div id="projects" class="card-body mx-auto" style=" justify-content: center;">
+                        <h5 class="card-title ">PIXER/Love on a canvas</h5>
+                        <p class="card-text "> This assignment was about making a dating app which focused on people getting to know each other before getting the access to see each others pictures. At the beginning I had difficulties coming up with ideas, I focused on all
+                            the problematic areas too much. After some time I got one idea, and that one idea lead to another one and after that it all just made sense. The key was also to just stop thinking about the problems and start thinking solutions,
+                            it gave me a different kind of energy and the project was still a challenge but it became an exciting one.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row mt-5" style="padding-top: 150px;">
+            <div class="col-xl-6 ">
+                <div id="card3" class="card mx-auto">
+                    <div id="contact" class="card-body mx-auto" style=" justify-content: center;">
+                        <h5 class="card-title ">Contact me</h5>
+                        <p class="card-text "> Don't forget my LinkedIn link at the top of the page, add me and we can talk there instead! Or through the form below, choice is yours.
+                        </p>
+                        <form action=”mailto:mariahanna@live.se” method=”POST” enctype=”multipart/form-data” name=”EmailTestForm”>
+
+                            Your Email:<br>
+
+                            <input type=”text” size=”24″ name=”VisitorName”><br><br> What's up?
+
+                            <br> <textarea name=”VisitorComment” rows=”4″ cols=”20″>
+
+                        </textarea><br><br> <button>Send</button> </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
@@ -23,14 +116,19 @@
 
 
 
+
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+
+
+
 </body>
-
-
-
-
-
-
-
 
 
 
